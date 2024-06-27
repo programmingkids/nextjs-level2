@@ -4,8 +4,6 @@ const links = [
   { title: "Home", href: "/" },
   { title: "Nations", href: "/nations" },
   { title: "People", href: "/people" },
-  { title: "About", href: "/about" },
-  { title: "Hobby", href: "/hobby" },
 ];
 
 export const Header = function () {

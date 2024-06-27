@@ -12,13 +12,13 @@ export default function Home() {
         ))}
       </div>
       <div className="flex justify-around">
-        <Link href="/" className="text-link" replace={true}>
+        <Link href="/" className="text-link">
           Home
         </Link>
-        <Link href="/nations" className="text-link" replace>
+        <Link href="/nations" className="text-link">
           Nations
         </Link>
-        <Link href="/people" className="text-link" replace>
+        <Link href="/people" className="text-link">
           People
         </Link>
       </div>
