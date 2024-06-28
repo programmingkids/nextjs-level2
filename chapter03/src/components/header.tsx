@@ -1,18 +1,6 @@
 import Link from "next/link";
 
-const links = [
-  { title: "Home", href: "/" },
-  { title: "First", href: "/blog/first" },
-  { title: "Second", href: "/blog/second" },
-  { title: "Login", href: "/login" },
-  { title: "Logout", href: "/logout" },
-  { title: "Register", href: "/register" },
-  { title: "Products", href: "/products" },
-  { title: "Movies", href: "/movies" },
-  { title: "Docs", href: "/docs/index/" },
-  { title: "Profile", href: "/profile" },
-  { title: "Nations", href: "/nations" },
-];
+const links = [{ title: "Home", href: "/" }];
 
 export const Header = function () {
   return (
