@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #F5F5F5;
+}
+
+.main {
+  text-align: center;
+}
+
+.text-link {
+  color: #1d4ed8;
+  font-weight: normal;
+  text-decoration: underline
+}
+
+.text-link:hover {
+  color: #b91c1c;
+}
