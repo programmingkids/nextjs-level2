@@ -2,6 +2,8 @@
 
 import { getRandom } from "@/app/_lib/functions";
 
+// export const dynamic = "force-dynamic";
+
 export default function Template({
   children,
 }: Readonly<{

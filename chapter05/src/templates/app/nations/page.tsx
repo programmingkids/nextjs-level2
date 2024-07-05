@@ -1,3 +1,5 @@
+"use client";
+
 import { getRandom } from "@/app/_lib/functions";
 
 export default function Page() {

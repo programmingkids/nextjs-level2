@@ -20,3 +20,17 @@ body {
 .text-link:hover {
   color: #b91c1c;
 }
+
+@keyframes box-animation{
+  0% {width: 0%;}
+  100% {width: 100%}
+}
+
+.progressbar-anim {
+  animation-name: box-animation;
+  animation-duration: 2.8s;
+  animation-delay:0.1s;
+  animation-fill-mode: both;
+  animation-iteration-count:1;
+} 
+

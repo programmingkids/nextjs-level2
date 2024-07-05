@@ -4,5 +4,4 @@ export default function Loading() {
       <h1>Now loading...</h1>
     </div>
   );
-
 }

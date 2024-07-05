@@ -3,14 +3,15 @@ import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { Suspense } from "react";
+import { LoadingProgressBar } from "@/components/progressbar";
+import { Dummy } from "@/components/dummy";
 
 const notoSansJP400 = Noto_Sans_JP({
   weight: "400",
   display: "swap",
   preload: false,
 });
-
-export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={notoSansJP400.className} suppressHydrationWarning={true}>
-        <Header />
-        {children}
-        <Footer />
+        <Suspense fallback={<LoadingProgressBar bgColor={"bg-sky-500"} />}>
+          <Dummy />
+          <Header />
+          {children}
+          <Footer />
+        </Suspense>
       </body>
     </html>
   );
