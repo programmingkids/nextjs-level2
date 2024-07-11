@@ -1,5 +1,5 @@
-import { CommentBox } from "@/components/comment";
-import { comments, type Comment } from "@/app/comments/data";
+import { CommentBox } from '@/components/comment';
+import { comments, type Comment } from '@/app/comments/data';
 
 type CommentPageProps = {
   params: {

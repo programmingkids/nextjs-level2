@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Pagge() {
-  const data = ["Japan", "England", "France", "Italy"];
+  const data = ['Japan', 'England', 'France', 'Italy'];
 
   return (
     <div className="main">

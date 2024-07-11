@@ -1,8 +1,8 @@
-export const dynamic = "force-dynamic";
+export const dynamic = 'force-dynamic';
 
 export default function Page() {
   // 必ずエラーが発生する
-  throw new Error("this is fruits error");
+  throw new Error('this is fruits error');
 
   // 表示されないので意味はないが、ダミーとなるJSX
   return (

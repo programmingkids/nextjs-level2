@@ -1,6 +1,6 @@
-import { timeout } from "@/app/_lib/functions";
+import { timeout } from '@/app/_lib/functions';
 
-export default async function Page() {
+export default async function Default() {
   // 3秒間待機する
   await timeout(3000);
 

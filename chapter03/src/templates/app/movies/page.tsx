@@ -1,4 +1,4 @@
-import { MovieHeader } from "@/components/movieHeader";
+import { MovieHeader } from '@/components/movieHeader';
 
 export default function Page() {
   return (

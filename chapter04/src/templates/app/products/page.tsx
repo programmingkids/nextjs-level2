@@ -1,4 +1,4 @@
-import { ProductHeader } from "@/components/productHeader";
+import { ProductHeader } from '@/components/productHeader';
 
 export default function Page() {
   return (

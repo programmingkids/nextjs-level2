@@ -1,4 +1,4 @@
-import { Content } from "@/app/profile/content";
+import { Content } from '@/app/profile/content';
 
 // URLでアクセス可能
 export default function Page() {

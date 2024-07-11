@@ -1,10 +1,10 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const links = [
-  { title: "Home", href: "/" },
-  { title: "Colors", href: "/colors" },
-  { title: "Movies", href: "/movies" },
-  { title: "Fruits", href: "/fruits" },
+  { title: 'Home', href: '/' },
+  { title: 'Colors', href: '/colors' },
+  { title: 'Movies', href: '/movies' },
+  { title: 'Fruits', href: '/fruits' },
 ];
 
 export const Header = function () {

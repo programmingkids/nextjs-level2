@@ -1,5 +1,5 @@
-import { MovieHeader } from "@/components/movieHeader";
-import Link from "next/link";
+import Link from 'next/link';
+import { MovieHeader } from '@/components/movieHeader';
 
 type MovieProps = {
   params: {
@@ -15,7 +15,7 @@ export default function Page({ params: { id } }: MovieProps) {
       <div className="py-4 px-6">
         <h1 className="text-xl">Movie {id}</h1>
         <div className="py-4 text-start">
-          {("Movie" + id + ", ").repeat(20)}
+          {('Movie' + id + ', ').repeat(20)}
         </div>
       </div>
 
@@ -27,10 +27,10 @@ export default function Page({ params: { id } }: MovieProps) {
           {[...Array(5)].map((e, i) => (
             <Link
               key={i}
-              href={"/movies/" + id + "/comments/" + (i + 1)}
+              href={'/movies/' + id + '/comments/' + (i + 1)}
               className="text-link mx-3"
             >
-              {"Comment" + (i + 1)}
+              {'Comment' + (i + 1)}
             </Link>
           ))}
         </div>

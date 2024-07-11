@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default async function Page() {
   return (
@@ -9,7 +9,7 @@ export default async function Page() {
         <li>職業体験</li>
         <li>校外学習</li>
         <li>卒業式（2、3年生）</li>
-        <li>終業式（1、2年生）</li>
+        <li>修了式（1、2年生）</li>
       </div>
       <div className="mb-8">
         <Link href="/school" className="text-link">

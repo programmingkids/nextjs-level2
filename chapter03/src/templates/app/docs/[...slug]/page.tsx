@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 type DocsProps = {
   params: {
@@ -7,7 +7,7 @@ type DocsProps = {
 };
 
 export default function Page({ params: { slug } }: DocsProps) {
-  const [path1, path2 = ""] = slug;
+  const [path1, path2 = ''] = slug;
 
   return (
     <div className="main">
@@ -20,7 +20,7 @@ export default function Page({ params: { slug } }: DocsProps) {
           Document of {path1}/{path2}
         </h1>
         <div className="py-4 text-start">
-          {("Document of " + path1 + "/" + path2 + ", ").repeat(20)}
+          {('Document of ' + path1 + '/' + path2 + ', ').repeat(20)}
         </div>
       </div>
 

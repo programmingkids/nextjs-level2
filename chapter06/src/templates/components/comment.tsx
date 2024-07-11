@@ -1,4 +1,4 @@
-import { type Comment } from "@/app/comments/data";
+import { type Comment } from '@/app/comments/data';
 
 type CommentProps = Comment;
 

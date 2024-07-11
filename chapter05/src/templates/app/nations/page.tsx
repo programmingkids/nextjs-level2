@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { getRandom } from "@/app/_lib/functions";
+import { getRandom } from '@/app/_lib/functions';
 
 export default function Page() {
   // 50%確率でエラーが発生する
   const result = getRandom(1, 2);
   if (result == 1) {
-    throw new Error("this is nation error");
+    throw new Error('this is nation error');
   }
 
   return (

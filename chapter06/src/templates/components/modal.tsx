@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { useCallback, useRef, useEffect, MouseEventHandler } from "react";
-import { useRouter } from "next/navigation";
+import { useCallback, useRef, useEffect, MouseEventHandler } from 'react';
+import { useRouter } from 'next/navigation';
 
 type ModalProps = {
   children: React.ReactNode;
@@ -33,15 +33,15 @@ export default function Modal({ children }: ModalProps) {
   // ESCをクリックしてもモーダルを閉じる
   const onKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === "Escape") onDismiss();
+      if (e.key === 'Escape') onDismiss();
     },
     [onDismiss],
   );
 
   // イベントハンドラーの登録
   useEffect(() => {
-    document.addEventListener("keydown", onKeyDown);
-    return () => document.removeEventListener("keydown", onKeyDown);
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
   }, [onKeyDown]);
 
   return (

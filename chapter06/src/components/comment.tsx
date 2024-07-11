@@ -1,4 +1,4 @@
-import { type Comment } from "@/app/comments/data";
+import { type Comment } from '@/app/comments/data';
 
 type CommentProps = Comment;
 
@@ -9,7 +9,11 @@ export const CommentBox = function ({
   bgcolor,
 }: CommentProps) {
   return (
-    <div className="mx-auto my-5 px-4 py-6 max-w-lg rounded-xl border border-gray-300 shadow-lg bg-white hover:bg-rose-100">
+    <div
+      className="
+      mx-auto my-5 px-4 py-6 max-w-lg rounded-xl border border-gray-300 
+      shadow-lg bg-white hover:bg-rose-100"
+    >
       <div className="text-left focus:outline-none focus:ring-1">
         <div className="flex">
           <div

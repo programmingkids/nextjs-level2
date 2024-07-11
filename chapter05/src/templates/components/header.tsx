@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-const links = [{ title: "Home", href: "/" }];
+const links = [{ title: 'Home', href: '/' }];
 
 export const Header = function () {
   return (

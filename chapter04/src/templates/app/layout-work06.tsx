@@ -1,21 +1,21 @@
-import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
-import "./globals.css";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
+import type { Metadata } from 'next';
+import { Noto_Sans_JP } from 'next/font/google';
+import './globals.css';
+import { Header } from '@/components/header';
+import { Footer } from '@/components/footer';
 
 const notoSansJP400 = Noto_Sans_JP({
-  weight: "400",
-  display: "swap",
+  weight: '400',
+  display: 'swap',
   preload: false,
 });
 
 export const metadata: Metadata = {
   title: {
-    default: "NextJSレベル2",
-    template: "%s | NextJSレベル2",
+    default: 'NextJSレベル2',
+    template: '%s | NextJSレベル2',
   },
-  description: "NextJS学習",
+  description: 'NextJS学習',
 };
 
 export default function RootLayout({

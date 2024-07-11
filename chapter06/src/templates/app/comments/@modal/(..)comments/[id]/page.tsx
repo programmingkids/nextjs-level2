@@ -1,6 +1,6 @@
-import { CommentBox } from "@/components/comment";
-import { comments, type Comment } from "@/app/comments/data";
-import Modal from "@/components/modal";
+import { CommentBox } from '@/components/comment';
+import { comments, type Comment } from '@/app/comments/data';
+import Modal from '@/components/modal';
 
 type CommentPageProps = {
   params: {

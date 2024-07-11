@@ -1,14 +1,14 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const links = [
-  { title: "Home", href: "/" },
-  { title: "First", href: "/blog/first" },
-  { title: "Second", href: "/blog/second" },
-  { title: "Login", href: "/login" },
-  { title: "Register", href: "/register" },
-  { title: "Logout", href: "/logout" },
-  { title: "Apple", href: "/fruits/apple" },
-  { title: "Orange", href: "/fruits/orange" },
+  { title: 'Home', href: '/' },
+  { title: 'First', href: '/blog/first' },
+  { title: 'Second', href: '/blog/second' },
+  { title: 'Login', href: '/login' },
+  { title: 'Register', href: '/register' },
+  { title: 'Logout', href: '/logout' },
+  { title: 'Apple', href: '/fruits/apple' },
+  { title: 'Orange', href: '/fruits/orange' },
 ];
 
 export const Header = function () {

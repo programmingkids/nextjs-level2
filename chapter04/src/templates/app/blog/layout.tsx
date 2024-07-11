@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 type LayoutProps = Readonly<{
   children: React.ReactNode;
@@ -14,7 +14,7 @@ export default function Layout({ children }: LayoutProps) {
       {children}
 
       <div className="p-4 bg-sky-600 text-white">
-        {"Blog footer, ".repeat(20)}
+        {'Blog footer, '.repeat(20)}
       </div>
     </div>
   );

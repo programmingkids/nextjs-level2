@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
-import "./globals.css";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
-import { useEffect, useState } from "react";
+import type { Metadata } from 'next';
+import { Noto_Sans_JP } from 'next/font/google';
+import './globals.css';
+import { Header } from '@/components/header';
+import { Footer } from '@/components/footer';
+import { useEffect, useState } from 'react';
 
 const notoSansJP400 = Noto_Sans_JP({
-  weight: "400",
-  display: "swap",
+  weight: '400',
+  display: 'swap',
   preload: false,
 });
 

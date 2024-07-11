@@ -1,5 +1,5 @@
-import { timeout } from "@/app/_lib/functions";
-import Link from "next/link";
+import Link from 'next/link';
+import { timeout } from '@/app/_lib/functions';
 
 export default async function Page() {
   // 2秒間待機する

@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Page() {
-  const data = ["山田太郎", "佐藤花子", "山本次郎", "田中麻衣"];
+  const data = ['山田太郎', '佐藤花子', '山本次郎', '田中麻衣'];
 
   return (
     <div className="main">

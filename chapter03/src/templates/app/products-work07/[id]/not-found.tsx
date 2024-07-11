@@ -1,6 +1,6 @@
-import { ProductHeader } from "@/components/productHeader";
+import { ProductHeader } from '@/components/productHeader';
 
-export default function Page() {
+export default function NotFound() {
   return (
     <div className="main">
       <h1 className="p-4 bg-gray-500 text-white text-xl">Not Found</h1>

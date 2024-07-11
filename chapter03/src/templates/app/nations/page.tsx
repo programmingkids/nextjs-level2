@@ -1,4 +1,4 @@
-import { NationHeader } from "@/components/nationHeader";
+import { NationHeader } from '@/components/nationHeader';
 
 export default function Page() {
   return (

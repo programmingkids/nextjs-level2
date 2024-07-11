@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Home() {
-  const fruits = ["apple", "orange", "banana", "peach"];
+  const fruits = ['apple', 'orange', 'banana', 'peach'];
 
   return (
     <div className="main">

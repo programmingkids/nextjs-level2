@@ -1,5 +1,5 @@
 export default function Page() {
-  const data = ["旅行", "カラオケ", "アニメ", "ゲーム"];
+  const data = ['旅行', 'カラオケ', 'アニメ', 'ゲーム'];
 
   return (
     <div className="main">

@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { comments } from "@/app/comments/data";
-import { CommentBox } from "@/components/comment";
+import Link from 'next/link';
+import { comments } from '@/app/comments/data';
+import { CommentBox } from '@/components/comment';
 
 export default function Page() {
   return (

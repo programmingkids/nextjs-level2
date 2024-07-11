@@ -1,4 +1,4 @@
-import { NationHeader } from "@/components/nationHeader";
+import { NationHeader } from '@/components/nationHeader';
 
 type NationProps = {
   params: {
@@ -16,7 +16,7 @@ export default function Page({ params: { name } }: NationProps) {
       <div className="py-4 px-6">
         <h1 className="text-xl">Nation {name.toUpperCase()}</h1>
         <div className="py-4 text-start">
-          {("Nation " + name + ", ").repeat(100)}
+          {('Nation ' + name + ', ').repeat(100)}
         </div>
       </div>
     </div>

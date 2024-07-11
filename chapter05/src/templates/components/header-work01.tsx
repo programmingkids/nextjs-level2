@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const links = [
-  { title: "Home", href: "/" },
-  { title: "Colors", href: "/colors" },
+  { title: 'Home', href: '/' },
+  { title: 'Colors', href: '/colors' },
 ];
 
 export const Header = function () {

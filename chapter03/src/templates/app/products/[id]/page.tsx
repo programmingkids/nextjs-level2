@@ -1,4 +1,4 @@
-import { ProductHeader } from "@/components/productHeader";
+import { ProductHeader } from '@/components/productHeader';
 
 type ProductProps = {
   params: {
@@ -14,7 +14,7 @@ export default function Page({ params: { id } }: ProductProps) {
       <div className="py-4 px-6">
         <h1 className="text-xl">Product {id}</h1>
         <div className="py-4 text-start">
-          {("Product" + id + ", ").repeat(100)}
+          {('Product' + id + ', ').repeat(100)}
         </div>
       </div>
     </div>
