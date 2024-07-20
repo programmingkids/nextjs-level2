@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Pagge() {
+export default function Page() {
   const data = ['Japan', 'England', 'France', 'Italy'];
 
   return (
