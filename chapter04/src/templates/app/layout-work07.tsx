@@ -19,7 +19,7 @@ const notoSansJP400 = Noto_Sans_JP({
 //     template: "%s | NextJSレベル2",
 //   },
 //   description: "NextJS学習",
-// };s
+// };
 
 export default function RootLayout({
   children,
