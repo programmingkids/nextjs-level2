@@ -21,6 +21,10 @@ body {
   color: #b91c1c;
 }
 
+li {
+  list-style-position: inside;
+}
+
 @keyframes box-animation{
   0% {width: 0%;}
   100% {width: 100%}
